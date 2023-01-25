@@ -1,0 +1,59 @@
+/* .blog {
+  padding: 5% 0;
+} */
+.blog {
+  background: url(../../../public/img/food-bg-3.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top right;
+  padding: 5% 0;
+}
+.blog .img {
+  height: 300px;
+}
+.blog img {
+  width: 100%;
+  height: 100%;
+}
+.blog .text {
+  padding: 20px 20px;
+}
+.blog .blog-title h1 {
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 30px;
+  margin: 15px 0px;
+  transition: 0.5s;
+}
+.blog .blog-title h1:hover {
+  color: #6c5ce7;
+  cursor: pointer;
+}
+.blog span {
+  text-transform: uppercase;
+  font-weight: 500;
+  color: #44bd32;
+}
+.blog span label {
+  margin-left: 10px;
+  color: #44bd32;
+  font-size: 13px;
+}
+
+.blog p {
+  font-size: 15px;
+  color: #747d8c;
+  margin-bottom: 20px;
+}
+.blog .btn-primary {
+  padding: 5px 10px;
+  color: #fff;
+  font-size: 14px;
+  border-radius: 5px;
+}
+@media screen and (max-width: 480px) {
+  .blog h1 {
+    font-size: 16px;
+    line-height: 20px;
+  }
+}
